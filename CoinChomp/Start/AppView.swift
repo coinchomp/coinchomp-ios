@@ -35,32 +35,20 @@ struct AppView: View {
                 
                 WalletView()
                     .tabItem {
-                        Image(systemName: "wallet")
-                        Text("Wallet")
+                        Image(systemName: "bitcoinsign.circle")
                     }
+                    .tag(0)
                 
                FrontPageView()
                 .tabItem {
-                    Image(systemName: "flame")
-                    Text("Home")
+                    Image(systemName: "newspaper")
                 }
-                .tag(0)
+                .tag(1)
                 
-//                PortfolioView(pieSliceData: PieSliceData(
-//                                startAngle: Angle(degrees: 0.0),
-//                                endAngle: Angle(degrees: 220.0),
-//                                color: Color.black,
-//                                text: "Anything"))
-//                    .tabItem {
-//                        Image(systemName:"chart.pie.fill")
-//                        Text("Portfolio")
-//                    }
-//                    .tag(1)
 
-                MenuView()
+                PreferencesView()
                     .tabItem {
-                        Image(systemName:"list.dash")
-                        Text("Menu")
+                        Image(systemName:"gearshape")
                     }
                     .tag(2)
                 

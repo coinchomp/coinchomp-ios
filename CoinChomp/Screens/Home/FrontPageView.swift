@@ -123,14 +123,16 @@ struct FrontPageView: View {
                             .padding(.leading, 75)
                             .padding(.trailing, 40)
                         
-                        Button(action: {
-                            shouldShowMenu = true
-                        }, label: {
-                            Image(systemName: "circle.fill")
-                                .font(.system(size:11))
-                                .foregroundColor(Color("CoinChompPrimary"))
-                                .padding(.trailing, 20)
-                        })
+//                        Button(action: {
+//                            shouldShowMenu = true
+//                        }, label: {
+//                            Image(systemName: "circle.fill")
+//                                .font(.system(size:11))
+//                                .foregroundColor(Color("CoinChompPrimary"))
+//                                .padding(.trailing, 20)
+//                        })
+                        
+                        Spacer()
                         
                     }
                     .padding(.vertical, 10)
