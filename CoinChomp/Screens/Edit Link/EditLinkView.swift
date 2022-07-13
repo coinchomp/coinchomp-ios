@@ -131,27 +131,38 @@ struct EditLinkView: View {
                                     .opacity(link.content.count > 0 ? 0.75 : 0.25)
                             })
                         }
+                    
                         
                         if let user = viewModel.auth.currentUser {
                            if user.roles.contains("editor") == true {
                             Divider()
-                            if let vmLink = viewModel.link,
-                               vmLink.imageURL.count > 0 {
+                            if let vmLink = viewModel.link {
+                            
+                               if vmLink.imageURL.count > 0 {
                                 
-                                if let image = viewModel.imageLoader.image {
-                                    Image(uiImage: image)
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fit)
-                                        .cornerRadius(3)
+                                    if let image = viewModel.imageLoader.image {
+                                        Image(uiImage: image)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .cornerRadius(3)
+                                    }
+                                    Text("Image URL: \(vmLink.imageURL)")
+                                        .font(.system(size:10))
+                                        .foregroundColor(Color("BWForeground").opacity(0.5))
                                 }
                                 
-                                Text("Image URL: \(vmLink.imageURL)")
-                                    .font(.system(size:10))
-                                    .foregroundColor(Color("BWForeground").opacity(0.5))
+                                HStack {
+                                    RoundRectButton(text:"Paste Image URL", tapHandler:{
+                                        viewModel.pasteLinkImageURL()
+                                    })
+                                    if(vmLink.imageURL.count > 0){
+                                        RoundRectButton(text:"Clear Image URL", tapHandler:{
+                                            viewModel.clearLinkImageURL()
+                                        })
+                                    }
+                                }
                             }
-                            RoundRectButton(text:"Paste Image URL", tapHandler:{
-                                viewModel.pasteLinkImageURL()
-                            })
+                            
                             Divider()
                             Toggle("Set As Headline", isOn: $viewModel.isHeadline)
                             Divider()

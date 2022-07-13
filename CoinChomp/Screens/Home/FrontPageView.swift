@@ -140,9 +140,11 @@ struct FrontPageView: View {
                         ForEach(viewModel.links.indices, id: \.self) { i in
                             if let link = viewModel.links[i] {
                                 if viewModel.hideAlreadyViewed() &&
-                                    viewModel.viewedLinkIDs.contains(link.linkID) {
+                                    viewModel.viewedLinkIDs.contains(link.linkID) ||
+                                    (link.isAd && viewModel.canHideAds()) {
                                     // show nothing
                                 } else {
+                                    
                                     LinkCell(link: link,
                                              fontSize: link.isHeadline ?
                                                 viewModel.fontSizeForLinkTitleHeadline : viewModel.fontSizeForLinkTitle,

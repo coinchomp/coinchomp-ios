@@ -33,6 +33,7 @@ class ServiceCredentialsService {
                 } else if let credentials = credentials {
                     for (k,v) in credentials {
                         if k == "version" {
+                            print(k)
                             UserDefaults.standard.setValue(v, forKey: Self.credentialsKey)
                         }else{
                             self?.auth.storeSecureCredential(withKey: k, value: v)

@@ -119,9 +119,7 @@ struct ProfileView: View {
                         
                     }
                     
-                    
-                    /*
-                
+                                
                     if let currentUser = viewModel.auth.currentUser,
                        currentUser.userID == user.userID {
                         if user.isPaid {
@@ -169,9 +167,7 @@ struct ProfileView: View {
                             } // Section
                         } // isPaid if/else
                     }// isCurrentUser if/else
- 
-                */
- 
+  
  
                 }// Form
                 .foregroundColor(Color("BWForeground").opacity(0.75))

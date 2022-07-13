@@ -126,4 +126,10 @@ class EditLinkViewModel : ObservableObject {
             self.objectWillChange.send()
         }
     }
+    
+    func clearLinkImageURL(){
+        self.link?.imageURL = ""
+        self.objectWillChange.send()
+    }
+    
 }

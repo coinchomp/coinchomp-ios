@@ -30,6 +30,13 @@ class PreferencesViewModel : ObservableObject {
         }
     }
     
+    @Published var markAlreadyViewedLinks : Bool {
+        didSet {
+            let defaults = UserDefaults.standard
+            defaults.setValue(markAlreadyViewedLinks, forKey: prefsMarkAlreadyViewedLinksKey)
+        }
+    }
+    
     @Published var frontPageDividersEnabled : Bool {
         didSet {
             let defaults = UserDefaults.standard
@@ -55,6 +62,7 @@ class PreferencesViewModel : ObservableObject {
         self.frontPageDividersEnabled = false
         self.hideAdsEnabled = false
         self.hideAlreadyViewedLinks = false
+        self.markAlreadyViewedLinks = true
         self.autoPasteEnabled = false
         self.textSize = 1.0
         let defaults = UserDefaults.standard
@@ -72,6 +80,9 @@ class PreferencesViewModel : ObservableObject {
         }
         if let hav = defaults.value(forKey: prefsHideAlreadyViewedLinksKey) as? Bool {
             self.hideAlreadyViewedLinks = hav
+        }
+        if let mav = defaults.value(forKey: prefsMarkAlreadyViewedLinksKey) as? Bool {
+            self.markAlreadyViewedLinks = mav
         }
         if let ts = defaults.value(forKey: prefsTextSizeKey) as? CGFloat {
             self.textSize = ts

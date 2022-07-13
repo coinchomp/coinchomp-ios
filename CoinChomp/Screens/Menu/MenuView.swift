@@ -247,9 +247,82 @@ struct MenuView: View {
                                 }
                             })
                         }
+                        
+                        
+                        
+                        
+                        
+                        
+                        Section(header: Text("RECCOMENDED").foregroundColor(Color("BWForeground").opacity(0.25)).font(.system(size: viewModel.fontSizeForBody))){
+                            
+                        
+                            
+                            HStack {
+                                Text("Discord Group")
+                                    .font(.system(size: viewModel.fontSizeForBody))
+
+                                Spacer()
+                                Button(action: {
+                                    if let url = URL(string: "https://coinchomp.com/discord") {
+                                        UIApplication.shared.open(url)
+                                    }
+                                }, label: {
+                                    HStack {
+                                        Spacer()
+                                        Image(systemName:"chevron.right")
+                                            .font(.system(size: viewModel.fontSizeForBody))
+                                    }
+                                })
+                            }
+                            
+                            HStack {
+                                Text("Telegram Group")
+                                    .font(.system(size: viewModel.fontSizeForBody))
+
+                                Spacer()
+                                Button(action: {
+                                    if let url = URL(string: "https://coinchomp.com/discord") {
+                                        UIApplication.shared.open(url)
+                                    }
+                                }, label: {
+                                    HStack {
+                                        Spacer()
+                                        Image(systemName:"chevron.right")
+                                            .font(.system(size: viewModel.fontSizeForBody))
+                                    }
+                                })
+                            }
+                            
+                            
+                            HStack {
+                                
+                                Text("Cryptometheus")
+                                    .font(.system(size: viewModel.fontSizeForBody))
+                                Spacer()
+                                Button(action: {
+                                    if let url = URL(string: "https://apps.apple.com/app/cryptometheus/id1549230480") {
+                                        UIApplication.shared.open(url)
+                                    }
+                                }, label: {
+                                    HStack {
+                                        Image("cmicon")
+                                            .frame(width: 30, height: 30, alignment: .leading)
+                                        Image(systemName:"chevron.right")
+                                            .font(.system(size: viewModel.fontSizeForBody))
+                                    }
+                                })
+                            }
+                            
+                        } // Section
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                                                                         
-                        Section(footer: Text("\(viewModel.versionInfo) \(viewModel.envContext)").foregroundColor(Color("BWForeground").opacity(0.25)).font(.system(size: viewModel.fontSizeForBody))
-){
+                        Section(footer: Text("\(viewModel.versionInfo) \(viewModel.envContext)").foregroundColor(Color("BWForeground").opacity(0.25)).font(.system(size: viewModel.fontSizeForBody))){
                             
                             HStack {
                                 Text("Terms of Use")
@@ -301,6 +374,10 @@ struct MenuView: View {
                                 })
                             }
                         } // Section
+                        
+                        
+                        
+                        
                     } // Form
                     .foregroundColor(Color("BWForeground").opacity(0.75))
             }

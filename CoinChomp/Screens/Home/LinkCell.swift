@@ -17,7 +17,7 @@ struct LinkCell : View {
     let buttonAction : ()->()
     let doesLoadData : Bool
     let fontSize: CGFloat
-    let viewed: Bool
+    let markViewed: Bool
     let viewModel : FrontPageViewModel
     
     init(link: Link,
@@ -29,7 +29,15 @@ struct LinkCell : View {
         self.doesLoadData = false
         self.buttonAction = action
         self.fontSize = fontSize
-        self.viewed = viewed
+        if(viewed){
+            if(PreferencesService.shared.markAlreadyViewedLinksEnabled()){
+                self.markViewed = true
+            }else{
+                self.markViewed = false
+            }
+        }else{
+            self.markViewed = false
+        }
         self.viewModel = viewModel
         imageLoader = ImageLoader(urlString:link.imageURL)
     }
@@ -87,13 +95,8 @@ struct LinkCell : View {
                                 .fontWeight(link.isHeadline || link.chomp > 0 ? .semibold : .light)
                                     .font(.custom("Courier", size: fontSize))
                                 .minimumScaleFactor(0.25)
-                                .foregroundColor(Color("BWForeground").opacity(viewed ? 0.40 : 1.0))
+                                .foregroundColor(Color("BWForeground").opacity(markViewed ? 0.40 : 1.0))
                                 .lineLimit(10)
-//                                    .frame(minWidth: 0,
-//                                            maxWidth: .infinity,
-//                                            minHeight: 20,
-//                                            maxHeight: 400,
-//                                            alignment: .center)
      
                         }
                         
@@ -108,16 +111,16 @@ struct LinkCell : View {
                         }
                         
                     } // HStack
-
+ 
                 }// VStack
                 .padding(.top, 5)
                 .padding(.bottom, 5)
-                .padding(.horizontal, 10)
+                .padding(.horizontal, 15)
                 .background(Color("BWBackground"))
                 .frame(minWidth: 0,
                         maxWidth: .infinity,
                         minHeight: 0,
-                        maxHeight: 200,
+                        maxHeight: 300,
                         alignment: .center)
             } // if/else
         }

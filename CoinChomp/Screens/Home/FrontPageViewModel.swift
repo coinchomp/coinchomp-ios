@@ -235,6 +235,17 @@ class FrontPageViewModel: ObservableObject {
         layoutLinks()
         self.objectWillChange.send()
     }
+    
+    func canHideAds() -> Bool {
+        if let currentUser = auth.currentUser {
+            if currentUser.isPaid {
+                if PreferencesService.shared.hideAdsEnabled() {
+                    return true
+                }
+            }
+        }
+        return false
+    }
         
     func prepareToShowUser(userID: String, completion: @escaping (Bool)->()){
         if userID == auth.currentUserID,

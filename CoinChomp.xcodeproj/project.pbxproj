@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -78,6 +78,14 @@
 		0750BD5E25DB6B5D008C9289 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750BD5D25DB6B5D008C9289 /* Link.swift */; };
 		0750BD6425DB6B9E008C9289 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750BD6225DB6B9E008C9289 /* LoginView.swift */; };
 		0750BD6525DB6B9E008C9289 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750BD6325DB6B9E008C9289 /* LoginViewModel.swift */; };
+		075F8E63287E6D25004C242B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075F8E62287E6D24004C242B /* Default-568h@2x.png */; };
+		078580E9287F1679001502A6 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078580E8287F1679001502A6 /* WalletView.swift */; };
+		078580EE287F1688001502A6 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078580ED287F1688001502A6 /* WalletViewModel.swift */; };
+		079111612703CBB90066CDFC /* RadarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791115E2703CBB90066CDFC /* RadarViewModel.swift */; };
+		079111622703CBB90066CDFC /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791115F2703CBB90066CDFC /* RadarView.swift */; };
+		079111632703CBB90066CDFC /* RadarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079111602703CBB90066CDFC /* RadarCellView.swift */; };
+		0791116B2703CC3B0066CDFC /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0791116A2703CC3B0066CDFC /* Crypto.swift */; };
+		079111732703CD420066CDFC /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079111722703CD420066CDFC /* CryptoService.swift */; };
 		079BFE7F25E18F75002446F7 /* BulkSelectLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BFE7E25E18F75002446F7 /* BulkSelectLinksView.swift */; };
 		079BFE8425E18FA2002446F7 /* BulkSelectLinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BFE8325E18FA2002446F7 /* BulkSelectLinksViewModel.swift */; };
 		079BFE8925E18FC4002446F7 /* BulkSelectLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BFE8825E18FC4002446F7 /* BulkSelectLinkCell.swift */; };
@@ -91,13 +99,21 @@
 		07CF570F25F57B45006DF283 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF570E25F57B45006DF283 /* PreferencesView.swift */; };
 		07CF571425F57B65006DF283 /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF571325F57B65006DF283 /* PreferencesViewModel.swift */; };
 		07CF571925F6741A006DF283 /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF571825F67419006DF283 /* PreferencesService.swift */; };
+		07FD01942705F8B60052D4B3 /* WatchlistCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD01912705F8B60052D4B3 /* WatchlistCellView.swift */; };
+		07FD01952705F8B60052D4B3 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD01922705F8B60052D4B3 /* WatchlistView.swift */; };
+		07FD01962705F8B60052D4B3 /* WatchlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD01932705F8B60052D4B3 /* WatchlistViewModel.swift */; };
+		07FD019E2705F99F0052D4B3 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD019B2705F99F0052D4B3 /* PortfolioViewModel.swift */; };
+		07FD019F2705F99F0052D4B3 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD019C2705F99F0052D4B3 /* PortfolioView.swift */; };
+		07FD01A02705F99F0052D4B3 /* PortfolioCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD019D2705F99F0052D4B3 /* PortfolioCellView.swift */; };
+		07FD01B52709E82B0052D4B3 /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD01B42709E82A0052D4B3 /* CryptoDetailView.swift */; };
+		07FD01BD2709E89F0052D4B3 /* CryptoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD01BC2709E89F0052D4B3 /* CryptoDetailViewModel.swift */; };
 		07FF8B0425FEF26200BF3456 /* TopicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF8B0325FEF26200BF3456 /* TopicService.swift */; };
 		07FF8B0925FEF2A700BF3456 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF8B0825FEF2A700BF3456 /* Topic.swift */; };
 		07FF8B69260040AE00BF3456 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF8B68260040AE00BF3456 /* TopicsView.swift */; };
 		07FF8B712600412900BF3456 /* CreateTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF8B702600412900BF3456 /* CreateTopicView.swift */; };
-		1E2B021DEAF9F92591E6F904 /* Pods_CoinChompTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17328F65B38C8007CC028F49 /* Pods_CoinChompTests.framework */; };
-		4895F4F97A6C4C24EB9954DE /* Pods_CoinChomp_CoinChompUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AACD4BF8AE8F4E7F7FAD26 /* Pods_CoinChomp_CoinChompUITests.framework */; };
-		B20ADDCACF33C492C4C610C5 /* Pods_CoinChomp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF6203B7A8AB6D6E7AFFFA /* Pods_CoinChomp.framework */; };
+		5A1B62C4A8803037E7EF6FDA /* Pods_CoinChompTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E44ABD517383DA3A7B25F47 /* Pods_CoinChompTests.framework */; };
+		D6D8D53AA218B325D5892A52 /* Pods_CoinChomp_CoinChompUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451891D265779979BC85BC20 /* Pods_CoinChomp_CoinChompUITests.framework */; };
+		E58A7935E5A3C0FAF5697590 /* Pods_CoinChomp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F238CC13AB5BEEE0812C5F /* Pods_CoinChomp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +216,14 @@
 		0750BD8C25DB6E5E008C9289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0750BD8D25DB6E5F008C9289 /* EnvPreferences.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EnvPreferences.plist; sourceTree = "<group>"; };
 		0750BD8E25DB6E5F008C9289 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		075F8E62287E6D24004C242B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		078580E8287F1679001502A6 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		078580ED287F1688001502A6 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		0791115E2703CBB90066CDFC /* RadarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarViewModel.swift; sourceTree = "<group>"; };
+		0791115F2703CBB90066CDFC /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		079111602703CBB90066CDFC /* RadarCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarCellView.swift; sourceTree = "<group>"; };
+		0791116A2703CC3B0066CDFC /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		079111722703CD420066CDFC /* CryptoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		079BFE7E25E18F75002446F7 /* BulkSelectLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkSelectLinksView.swift; sourceTree = "<group>"; };
 		079BFE8325E18FA2002446F7 /* BulkSelectLinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkSelectLinksViewModel.swift; sourceTree = "<group>"; };
 		079BFE8825E18FC4002446F7 /* BulkSelectLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkSelectLinkCell.swift; sourceTree = "<group>"; };
@@ -213,19 +237,27 @@
 		07CF570E25F57B45006DF283 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		07CF571325F57B65006DF283 /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
 		07CF571825F67419006DF283 /* PreferencesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		07FD01912705F8B60052D4B3 /* WatchlistCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchlistCellView.swift; sourceTree = "<group>"; };
+		07FD01922705F8B60052D4B3 /* WatchlistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		07FD01932705F8B60052D4B3 /* WatchlistViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchlistViewModel.swift; sourceTree = "<group>"; };
+		07FD019B2705F99F0052D4B3 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewModel.swift; sourceTree = "<group>"; };
+		07FD019C2705F99F0052D4B3 /* PortfolioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		07FD019D2705F99F0052D4B3 /* PortfolioCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCellView.swift; sourceTree = "<group>"; };
+		07FD01B42709E82A0052D4B3 /* CryptoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
+		07FD01BC2709E89F0052D4B3 /* CryptoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailViewModel.swift; sourceTree = "<group>"; };
 		07FF8B0325FEF26200BF3456 /* TopicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicService.swift; sourceTree = "<group>"; };
 		07FF8B0825FEF2A700BF3456 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		07FF8B68260040AE00BF3456 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		07FF8B702600412900BF3456 /* CreateTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTopicView.swift; sourceTree = "<group>"; };
-		17328F65B38C8007CC028F49 /* Pods_CoinChompTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChompTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B527D6C50C4EF2529E53479 /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp-CoinChompUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoinChomp-CoinChompUITests/Pods-CoinChomp-CoinChompUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		444035380849C78F93DC1719 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp-CoinChompUITests.release.xcconfig"; path = "Target Support Files/Pods-CoinChomp-CoinChompUITests/Pods-CoinChomp-CoinChompUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4573F15E666E86AC66754A41 /* Pods-CoinChomp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp.debug.xcconfig"; path = "Target Support Files/Pods-CoinChomp/Pods-CoinChomp.debug.xcconfig"; sourceTree = "<group>"; };
-		5BEAA22EE58CA9D6D3058AF8 /* Pods-CoinChompTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChompTests.release.xcconfig"; path = "Target Support Files/Pods-CoinChompTests/Pods-CoinChompTests.release.xcconfig"; sourceTree = "<group>"; };
-		794083D01449B1B05FE386C2 /* Pods-CoinChomp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp.release.xcconfig"; path = "Target Support Files/Pods-CoinChomp/Pods-CoinChomp.release.xcconfig"; sourceTree = "<group>"; };
-		93AACD4BF8AE8F4E7F7FAD26 /* Pods_CoinChomp_CoinChompUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChomp_CoinChompUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3BF6203B7A8AB6D6E7AFFFA /* Pods_CoinChomp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChomp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E02F24D8C22B1B89F9E8CD71 /* Pods-CoinChompTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChompTests.debug.xcconfig"; path = "Target Support Files/Pods-CoinChompTests/Pods-CoinChompTests.debug.xcconfig"; sourceTree = "<group>"; };
+		193A3799ABAC108FEAA17D5B /* Pods-CoinChomp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp.debug.xcconfig"; path = "Target Support Files/Pods-CoinChomp/Pods-CoinChomp.debug.xcconfig"; sourceTree = "<group>"; };
+		2C4B4ABF77729E61BEE053DF /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp-CoinChompUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoinChomp-CoinChompUITests/Pods-CoinChomp-CoinChompUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35381DAE58C48DE758CBF051 /* Pods-CoinChompTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChompTests.debug.xcconfig"; path = "Target Support Files/Pods-CoinChompTests/Pods-CoinChompTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F238CC13AB5BEEE0812C5F /* Pods_CoinChomp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChomp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		451891D265779979BC85BC20 /* Pods_CoinChomp_CoinChompUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChomp_CoinChompUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6165C5FC31DED94D3C954A4D /* Pods-CoinChompTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChompTests.release.xcconfig"; path = "Target Support Files/Pods-CoinChompTests/Pods-CoinChompTests.release.xcconfig"; sourceTree = "<group>"; };
+		77731F411434BCDBE6F3DECB /* Pods-CoinChomp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp.release.xcconfig"; path = "Target Support Files/Pods-CoinChomp/Pods-CoinChomp.release.xcconfig"; sourceTree = "<group>"; };
+		9890D3F0D34D498A434F5AA9 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinChomp-CoinChompUITests.release.xcconfig"; path = "Target Support Files/Pods-CoinChomp-CoinChompUITests/Pods-CoinChomp-CoinChompUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E44ABD517383DA3A7B25F47 /* Pods_CoinChompTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinChompTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,7 +265,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20ADDCACF33C492C4C610C5 /* Pods_CoinChomp.framework in Frameworks */,
+				E58A7935E5A3C0FAF5697590 /* Pods_CoinChomp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +273,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2B021DEAF9F92591E6F904 /* Pods_CoinChompTests.framework in Frameworks */,
+				5A1B62C4A8803037E7EF6FDA /* Pods_CoinChompTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +281,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4895F4F97A6C4C24EB9954DE /* Pods_CoinChomp_CoinChompUITests.framework in Frameworks */,
+				D6D8D53AA218B325D5892A52 /* Pods_CoinChomp_CoinChompUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +323,13 @@
 		0750BC0C25DB5E62008C9289 = {
 			isa = PBXGroup;
 			children = (
+				075F8E62287E6D24004C242B /* Default-568h@2x.png */,
 				0750BC1725DB5E62008C9289 /* CoinChomp */,
 				0750BC2925DB5E65008C9289 /* CoinChompTests */,
 				0750BC3425DB5E65008C9289 /* CoinChompUITests */,
 				0750BC1625DB5E62008C9289 /* Products */,
 				AE696807B1517F57B4D28502 /* Pods */,
-				3BF428D0266957AAE2E393B4 /* Frameworks */,
+				73586D87A148BBC5AC49191B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -388,10 +421,15 @@
 			isa = PBXGroup;
 			children = (
 				071CCA862603BAC40091D97D /* ReportContentView.swift */,
+				078580E7287F1618001502A6 /* Wallet */,
+				0750BCED25DB6944008C9289 /* Home */,
+				07FD01B32709E7DA0052D4B3 /* CryptoDetailView */,
+				0791115A2703CB5D0066CDFC /* Radar */,
+				07FD019A2705F93B0052D4B3 /* Portfolio */,
+				07FD01902705F5270052D4B3 /* Watchlist */,
 				071053EE25DC131F00400DB9 /* Add Link */,
 				0750BCEB25DB6936008C9289 /* Alternative Modes */,
 				07C1CA1A25FBC00400965582 /* Edit Link */,
-				0750BCED25DB6944008C9289 /* Front Page */,
 				0710540D25DC237400400DB9 /* Content View */,
 				07CF56FC25F50E26006DF283 /* Compose Tweet */,
 				0750BCEC25DB693F008C9289 /* Log In */,
@@ -418,6 +456,7 @@
 		0750BC7025DB6399008C9289 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0791116A2703CC3B0066CDFC /* Crypto.swift */,
 				0750BCC825DB6817008C9289 /* Env.swift */,
 				071CCA932603C3500091D97D /* Flag.swift */,
 				0750BD5D25DB6B5D008C9289 /* Link.swift */,
@@ -452,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				0750BCAA25DB676D008C9289 /* AuthService.swift */,
+				079111722703CD420066CDFC /* CryptoService.swift */,
 				0750BCA025DB674F008C9289 /* EnvService.swift */,
 				0750BCC325DB67A0008C9289 /* DatabaseService.swift */,
 				071CCA8E2603C21A0091D97D /* FlagService.swift */,
@@ -506,7 +546,7 @@
 			path = "Log In";
 			sourceTree = "<group>";
 		};
-		0750BCED25DB6944008C9289 /* Front Page */ = {
+		0750BCED25DB6944008C9289 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				0750BCEE25DB6944008C9289 /* LinkCell.swift */,
@@ -514,7 +554,7 @@
 				0750BCF025DB6944008C9289 /* FrontPageView.swift */,
 				074A104425FA78650026D162 /* LinkMenu.swift */,
 			);
-			path = "Front Page";
+			path = Home;
 			sourceTree = "<group>";
 		};
 		0750BCF725DB6956008C9289 /* Menu */ = {
@@ -566,6 +606,25 @@
 			path = Subscriptions;
 			sourceTree = "<group>";
 		};
+		078580E7287F1618001502A6 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				078580E8287F1679001502A6 /* WalletView.swift */,
+				078580ED287F1688001502A6 /* WalletViewModel.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		0791115A2703CB5D0066CDFC /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				0791115F2703CBB90066CDFC /* RadarView.swift */,
+				0791115E2703CBB90066CDFC /* RadarViewModel.swift */,
+				079111602703CBB90066CDFC /* RadarCellView.swift */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
 		07C1CA1A25FBC00400965582 /* Edit Link */ = {
 			isa = PBXGroup;
 			children = (
@@ -594,6 +653,35 @@
 			path = Preferences;
 			sourceTree = "<group>";
 		};
+		07FD01902705F5270052D4B3 /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				07FD01912705F8B60052D4B3 /* WatchlistCellView.swift */,
+				07FD01922705F8B60052D4B3 /* WatchlistView.swift */,
+				07FD01932705F8B60052D4B3 /* WatchlistViewModel.swift */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
+		07FD019A2705F93B0052D4B3 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				07FD019D2705F99F0052D4B3 /* PortfolioCellView.swift */,
+				07FD019C2705F99F0052D4B3 /* PortfolioView.swift */,
+				07FD019B2705F99F0052D4B3 /* PortfolioViewModel.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		07FD01B32709E7DA0052D4B3 /* CryptoDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				07FD01B42709E82A0052D4B3 /* CryptoDetailView.swift */,
+				07FD01BC2709E89F0052D4B3 /* CryptoDetailViewModel.swift */,
+			);
+			path = CryptoDetailView;
+			sourceTree = "<group>";
+		};
 		07FF8B672600409A00BF3456 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
@@ -603,12 +691,12 @@
 			path = Topics;
 			sourceTree = "<group>";
 		};
-		3BF428D0266957AAE2E393B4 /* Frameworks */ = {
+		73586D87A148BBC5AC49191B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A3BF6203B7A8AB6D6E7AFFFA /* Pods_CoinChomp.framework */,
-				93AACD4BF8AE8F4E7F7FAD26 /* Pods_CoinChomp_CoinChompUITests.framework */,
-				17328F65B38C8007CC028F49 /* Pods_CoinChompTests.framework */,
+				43F238CC13AB5BEEE0812C5F /* Pods_CoinChomp.framework */,
+				451891D265779979BC85BC20 /* Pods_CoinChomp_CoinChompUITests.framework */,
+				9E44ABD517383DA3A7B25F47 /* Pods_CoinChompTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -616,12 +704,12 @@
 		AE696807B1517F57B4D28502 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4573F15E666E86AC66754A41 /* Pods-CoinChomp.debug.xcconfig */,
-				794083D01449B1B05FE386C2 /* Pods-CoinChomp.release.xcconfig */,
-				3B527D6C50C4EF2529E53479 /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */,
-				444035380849C78F93DC1719 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */,
-				E02F24D8C22B1B89F9E8CD71 /* Pods-CoinChompTests.debug.xcconfig */,
-				5BEAA22EE58CA9D6D3058AF8 /* Pods-CoinChompTests.release.xcconfig */,
+				193A3799ABAC108FEAA17D5B /* Pods-CoinChomp.debug.xcconfig */,
+				77731F411434BCDBE6F3DECB /* Pods-CoinChomp.release.xcconfig */,
+				2C4B4ABF77729E61BEE053DF /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */,
+				9890D3F0D34D498A434F5AA9 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */,
+				35381DAE58C48DE758CBF051 /* Pods-CoinChompTests.debug.xcconfig */,
+				6165C5FC31DED94D3C954A4D /* Pods-CoinChompTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -633,12 +721,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0750BC3A25DB5E65008C9289 /* Build configuration list for PBXNativeTarget "CoinChomp" */;
 			buildPhases = (
-				A86BB0E7F6767E545E1D7C90 /* [CP] Check Pods Manifest.lock */,
+				DF8037BEE72552446093703F /* [CP] Check Pods Manifest.lock */,
 				0750BC1125DB5E62008C9289 /* Sources */,
 				0750BC1225DB5E62008C9289 /* Frameworks */,
 				0750BC1325DB5E62008C9289 /* Resources */,
-				3F3D601611C61459F607D18F /* [CP] Embed Pods Frameworks */,
 				0750BC7C25DB65E1008C9289 /* Setup Environment */,
+				FB88D7AA6C0FF0FC7BB2208E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -653,7 +741,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0750BC3D25DB5E65008C9289 /* Build configuration list for PBXNativeTarget "CoinChompTests" */;
 			buildPhases = (
-				24BF3880B5E5F78996571496 /* [CP] Check Pods Manifest.lock */,
+				FFB35D2681F15765379D3536 /* [CP] Check Pods Manifest.lock */,
 				0750BC2225DB5E65008C9289 /* Sources */,
 				0750BC2325DB5E65008C9289 /* Frameworks */,
 				0750BC2425DB5E65008C9289 /* Resources */,
@@ -672,11 +760,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0750BC4025DB5E65008C9289 /* Build configuration list for PBXNativeTarget "CoinChompUITests" */;
 			buildPhases = (
-				9D476F9C276438B6E57A3B38 /* [CP] Check Pods Manifest.lock */,
+				9691F7588FA33101BAB962BF /* [CP] Check Pods Manifest.lock */,
 				0750BC2D25DB5E65008C9289 /* Sources */,
 				0750BC2E25DB5E65008C9289 /* Frameworks */,
 				0750BC2F25DB5E65008C9289 /* Resources */,
-				7DA4C6423520DCCB43A8361D /* [CP] Embed Pods Frameworks */,
+				354E8A8AAF74D5FEBC20E1D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -719,6 +807,9 @@
 				Base,
 			);
 			mainGroup = 0750BC0C25DB5E62008C9289;
+			packageReferences = (
+				07FD01A4270905630052D4B3 /* XCRemoteSwiftPackageReference "SwiftPieChart" */,
+			);
 			productRefGroup = 0750BC1625DB5E62008C9289 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -737,6 +828,7 @@
 			files = (
 				0750BC2025DB5E65008C9289 /* Preview Assets.xcassets in Resources */,
 				0750BC1D25DB5E65008C9289 /* Assets.xcassets in Resources */,
+				075F8E63287E6D25004C242B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,46 +867,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\nENV_PREFERENCES_PLIST=EnvPreferences.plist\n\n# Get references to stage and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_STAGE=${PROJECT_DIR}/${TARGET_NAME}/Environment/Stage/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${TARGET_NAME}/Environment/Prod/${GOOGLESERVICE_INFO_PLIST}\nENV_PREFERENCES_STAGE=${PROJECT_DIR}/${TARGET_NAME}/Environment/Stage/${ENV_PREFERENCES_PLIST}\nENV_PREFERENCES_PROD=${PROJECT_DIR}/${TARGET_NAME}/Environment/Prod/${ENV_PREFERENCES_PLIST}\n\n# Make sure the stage version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_STAGE}\"\nif [ ! -f $GOOGLESERVICE_INFO_STAGE ]\nthen\n    echo \"No Staging GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\n    echo \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n#------------------------------------------------------\n\n# Make sure the stage version of EnvPreferences.plist exists\necho \"Looking for ${ENV_PREFERENCES_PLIST} in ${ENV_PREFERENCES_STAGE}\"\nif [ ! -f $ENV_PREFERENCES_STAGE ]\nthen\n    echo \"No Staging EnvPreferences.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of EnvPreferences.plist exists\necho \"Looking for ${ENV_PREFERENCES_PLIST} in ${ENV_PREFERENCES_PROD}\"\nif [ ! -f $ENV_PREFERENCES_PROD ]\nthen\n    echo \"No Production EnvPreferences.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n\n# Get a reference to the destination location for the the plists\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\necho \"Will copy ${ENV_PREFERENCES_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod plists for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_PROD}\"\n    cp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\n    echo \"Using ${ENV_PREFERENCES_PROD}\"\n    cp \"${ENV_PREFERENCES_PROD}\" \"${PLIST_DESTINATION}\"\nelse\n    echo \"Using ${GOOGLESERVICE_INFO_STAGE}\"\n    cp \"${GOOGLESERVICE_INFO_STAGE}\" \"${PLIST_DESTINATION}\"\n        echo \"Using ${ENV_PREFERENCES_STAGE}\"\n    cp \"${ENV_PREFERENCES_STAGE}\" \"${PLIST_DESTINATION}\"\nfi\n\n";
 		};
-		24BF3880B5E5F78996571496 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoinChompTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F3D601611C61459F607D18F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7DA4C6423520DCCB43A8361D /* [CP] Embed Pods Frameworks */ = {
+		354E8A8AAF74D5FEBC20E1D5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -831,7 +884,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinChomp-CoinChompUITests/Pods-CoinChomp-CoinChompUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D476F9C276438B6E57A3B38 /* [CP] Check Pods Manifest.lock */ = {
+		9691F7588FA33101BAB962BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -853,7 +906,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A86BB0E7F6767E545E1D7C90 /* [CP] Check Pods Manifest.lock */ = {
+		DF8037BEE72552446093703F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -875,6 +928,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FB88D7AA6C0FF0FC7BB2208E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoinChomp/Pods-CoinChomp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB35D2681F15765379D3536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinChompTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -882,15 +974,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FD01B52709E82B0052D4B3 /* CryptoDetailView.swift in Sources */,
 				0710540F25DC238600400DB9 /* LinkContentView.swift in Sources */,
 				07CF570925F50E73006DF283 /* ComposeTweetView.swift in Sources */,
 				071CCA872603BAC40091D97D /* ReportContentView.swift in Sources */,
 				07488A1425DDC10100CB1F82 /* ManualReviewView.swift in Sources */,
 				071CCA6E2600C1B70091D97D /* SelectTopicView.swift in Sources */,
+				078580EE287F1688001502A6 /* WalletViewModel.swift in Sources */,
 				07CF571925F6741A006DF283 /* PreferencesService.swift in Sources */,
 				0750BCD325DB683F008C9289 /* Receipt.swift in Sources */,
 				0710540625DC1A0F00400DB9 /* LinkService.swift in Sources */,
+				07FD019E2705F99F0052D4B3 /* PortfolioViewModel.swift in Sources */,
+				0791116B2703CC3B0066CDFC /* Crypto.swift in Sources */,
 				0750BD2B25DB6956008C9289 /* SubscriptionCell.swift in Sources */,
+				07FD01BD2709E89F0052D4B3 /* CryptoDetailViewModel.swift in Sources */,
 				0750BC9C25DB66E7008C9289 /* UIApplication.swift in Sources */,
 				079BFE7F25E18F75002446F7 /* BulkSelectLinksView.swift in Sources */,
 				0750BC8925DB66AC008C9289 /* AppViewModel.swift in Sources */,
@@ -901,13 +998,16 @@
 				0750BD2C25DB6956008C9289 /* ManageSubscriptionViewModel.swift in Sources */,
 				0750BD6525DB6B9E008C9289 /* LoginViewModel.swift in Sources */,
 				0750BCF225DB6944008C9289 /* FrontPageViewModel.swift in Sources */,
+				079111612703CBB90066CDFC /* RadarViewModel.swift in Sources */,
 				0750BC8825DB66AC008C9289 /* AppView.swift in Sources */,
 				0750BC9A25DB66E7008C9289 /* UserDefaults.swift in Sources */,
 				0750BCA125DB674F008C9289 /* EnvService.swift in Sources */,
 				0750BD2825DB6956008C9289 /* ReceiptsView.swift in Sources */,
 				0750BCBA25DB678F008C9289 /* TwitterService.swift in Sources */,
+				07FD01942705F8B60052D4B3 /* WatchlistCellView.swift in Sources */,
 				074A104525FA78650026D162 /* LinkMenu.swift in Sources */,
 				0750BC9825DB66E7008C9289 /* URL.swift in Sources */,
+				07FD01A02705F99F0052D4B3 /* PortfolioCellView.swift in Sources */,
 				079BFE8925E18FC4002446F7 /* BulkSelectLinkCell.swift in Sources */,
 				0750BC7E25DB6650008C9289 /* AppDelegate.swift in Sources */,
 				0750BCB525DB6785008C9289 /* SubscriptionService.swift in Sources */,
@@ -917,20 +1017,24 @@
 				07488A2725DDC18300CB1F82 /* ManualReviewViewModel.swift in Sources */,
 				072EC93A260A22AD00255798 /* CreateLinkView.swift in Sources */,
 				0750BD2325DB6956008C9289 /* MenuViewModel.swift in Sources */,
+				07FD01952705F8B60052D4B3 /* WatchlistView.swift in Sources */,
 				0750BC1B25DB5E62008C9289 /* ContentView.swift in Sources */,
 				07C1CA2425FBC02E00965582 /* EditLinkViewModel.swift in Sources */,
 				07488A2C25DDC1F700CB1F82 /* AlternativeModeView.swift in Sources */,
 				0750BD1E25DB6956008C9289 /* MessagesView.swift in Sources */,
 				071CCA8F2603C21A0091D97D /* FlagService.swift in Sources */,
+				07FD019F2705F99F0052D4B3 /* PortfolioView.swift in Sources */,
 				0750BCDB25DB6906008C9289 /* Common.swift in Sources */,
 				0750BD2025DB6956008C9289 /* MessageView.swift in Sources */,
 				0750BC1925DB5E62008C9289 /* CoinChompApp.swift in Sources */,
 				0750BD1D25DB6956008C9289 /* MessagesViewModel.swift in Sources */,
 				0750BCF125DB6944008C9289 /* LinkCell.swift in Sources */,
 				079BFEA225E73F02002446F7 /* ChompLabel.swift in Sources */,
+				07FD01962705F8B60052D4B3 /* WatchlistViewModel.swift in Sources */,
 				0750BCA625DB675E008C9289 /* MessageService.swift in Sources */,
 				0750BC9525DB66E7008C9289 /* Color.swift in Sources */,
 				0750BCDC25DB6906008C9289 /* KeychainWrapper.swift in Sources */,
+				079111732703CD420066CDFC /* CryptoService.swift in Sources */,
 				0750BCC425DB67A0008C9289 /* DatabaseService.swift in Sources */,
 				0750BC9725DB66E7008C9289 /* String.swift in Sources */,
 				0750BD5E25DB6B5D008C9289 /* Link.swift in Sources */,
@@ -944,11 +1048,13 @@
 				07FF8B0425FEF26200BF3456 /* TopicService.swift in Sources */,
 				0750BD5125DB698D008C9289 /* MenuView.swift in Sources */,
 				071CCA942603C3500091D97D /* Flag.swift in Sources */,
+				078580E9287F1679001502A6 /* WalletView.swift in Sources */,
 				0750BCBF25DB6795008C9289 /* UserService.swift in Sources */,
 				0750BCD425DB683F008C9289 /* Subscription.swift in Sources */,
 				0750BD1F25DB6956008C9289 /* MessageCell.swift in Sources */,
 				0750BD5925DB6A44008C9289 /* RoundRectButton.swift in Sources */,
 				0750BCD225DB683F008C9289 /* User.swift in Sources */,
+				079111632703CBB90066CDFC /* RadarCellView.swift in Sources */,
 				0750BD2625DB6956008C9289 /* ProfileView.swift in Sources */,
 				079BFEA725E839CB002446F7 /* ImpressionService.swift in Sources */,
 				07FF8B0925FEF2A700BF3456 /* Topic.swift in Sources */,
@@ -959,6 +1065,7 @@
 				0750BCE225DB6910008C9289 /* StoreManager.swift in Sources */,
 				0750BD2A25DB6956008C9289 /* ReceiptsViewModel.swift in Sources */,
 				0750BCAB25DB676E008C9289 /* AuthService.swift in Sources */,
+				079111622703CBB90066CDFC /* RadarView.swift in Sources */,
 				072EC93F260A236D00255798 /* CreateLinkViewModel.swift in Sources */,
 				0750BD6425DB6B9E008C9289 /* LoginView.swift in Sources */,
 				07CF570F25F57B45006DF283 /* PreferencesView.swift in Sources */,
@@ -1052,7 +1159,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1107,9 +1214,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -1119,7 +1227,7 @@
 		};
 		0750BC3B25DB5E65008C9289 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4573F15E666E86AC66754A41 /* Pods-CoinChomp.debug.xcconfig */;
+			baseConfigurationReference = 193A3799ABAC108FEAA17D5B /* Pods-CoinChomp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1128,7 +1236,7 @@
 				DEVELOPMENT_TEAM = 35284G928T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/CoinChomp/Environment/Stage/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1143,7 +1251,7 @@
 		};
 		0750BC3C25DB5E65008C9289 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 794083D01449B1B05FE386C2 /* Pods-CoinChomp.release.xcconfig */;
+			baseConfigurationReference = 77731F411434BCDBE6F3DECB /* Pods-CoinChomp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1152,7 +1260,7 @@
 				DEVELOPMENT_TEAM = 35284G928T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/CoinChomp/Environment/Prod/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1167,7 +1275,7 @@
 		};
 		0750BC3E25DB5E65008C9289 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02F24D8C22B1B89F9E8CD71 /* Pods-CoinChompTests.debug.xcconfig */;
+			baseConfigurationReference = 35381DAE58C48DE758CBF051 /* Pods-CoinChompTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1190,7 +1298,7 @@
 		};
 		0750BC3F25DB5E65008C9289 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BEAA22EE58CA9D6D3058AF8 /* Pods-CoinChompTests.release.xcconfig */;
+			baseConfigurationReference = 6165C5FC31DED94D3C954A4D /* Pods-CoinChompTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1213,7 +1321,7 @@
 		};
 		0750BC4125DB5E65008C9289 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B527D6C50C4EF2529E53479 /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */;
+			baseConfigurationReference = 2C4B4ABF77729E61BEE053DF /* Pods-CoinChomp-CoinChompUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1234,7 +1342,7 @@
 		};
 		0750BC4225DB5E65008C9289 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444035380849C78F93DC1719 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */;
+			baseConfigurationReference = 9890D3F0D34D498A434F5AA9 /* Pods-CoinChomp-CoinChompUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1293,6 +1401,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07FD01A4270905630052D4B3 /* XCRemoteSwiftPackageReference "SwiftPieChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ilamanov/SwiftPieChart";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.61;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 0750BC0D25DB5E62008C9289 /* Project object */;
 }

@@ -43,6 +43,7 @@ class Link : Identifiable, Hashable {
     var type : LinkType
     var title : String
     var isHeadline : Bool
+    var isAd : Bool = false
     var destination : String
     var content : String
     var topicID : String = ""
@@ -83,6 +84,9 @@ class Link : Identifiable, Hashable {
            let chomp = fields["chomp"] as? Double,
            let weight = fields["weight"] as? Double else { return nil }
         
+        if let isAd = fields["isAd"] as? Bool {
+            self.isAd = isAd
+        }
         if let topicID = fields["topicID"] as? String {
             self.topicID = topicID
         }

@@ -13,12 +13,13 @@ let prefsAutoPasteEnabledKey = "autoPasteEnabled"
 let prefsTextSizeKey = "textSize"
 let prefsFrontPageDividersEnabledKey = "frontPageDividersEnabled"
 let prefsHideAlreadyViewedLinksKey = "hideAlreadyViewedLinks"
+let prefsMarkAlreadyViewedLinksKey = "markAlreadyViewedLinks"
 
 class PreferencesService {
     
     let fontSizeHeading : CGFloat = 20.0
     let fontSizeLinkTitle : CGFloat = 17.0
-    let fontSizeLinkTitleHeadline : CGFloat = 30.0
+    let fontSizeLinkTitleHeadline : CGFloat = 40.0
     let fontSizeBody : CGFloat = 16.0
     let fontSizeCaption : CGFloat = 12.0
     
@@ -39,6 +40,15 @@ class PreferencesService {
         }
         return false
     }
+    
+    func markAlreadyViewedLinksEnabled() -> Bool {
+        let defaults = UserDefaults.standard
+        if let mav = defaults.value(forKey: prefsMarkAlreadyViewedLinksKey) as? Bool {
+            return mav
+        }
+        return false
+    }
+    
     
     func hideAlreadyViewedLinksEnabled() -> Bool {
         let defaults = UserDefaults.standard

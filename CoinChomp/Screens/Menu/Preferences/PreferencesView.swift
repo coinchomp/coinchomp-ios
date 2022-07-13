@@ -49,6 +49,17 @@ struct PreferencesView: View {
                             }
                             
                             HStack {
+                                Text("Mark Already Viewed Items")
+                                    .font(.system(size: viewModel.fontSizeForBody))
+                                    .foregroundColor(Color("BWForeground"))
+
+                                Spacer()
+                                Toggle("Mark Already Viewed Links", isOn: $viewModel.markAlreadyViewedLinks).labelsHidden()
+                                    .foregroundColor(Color("BWForeground"))
+
+                            }
+                            
+                            HStack {
                                 Text("Hide Already Viewed Items")
                                     .font(.system(size: viewModel.fontSizeForBody))
                                     .foregroundColor(Color("BWForeground"))
