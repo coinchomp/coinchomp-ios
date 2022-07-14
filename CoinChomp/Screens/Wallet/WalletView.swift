@@ -9,7 +9,26 @@ import SwiftUI
 
 struct WalletView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            
+            ZStack {
+                
+                Color("BWBackground")
+                .edgesIgnoringSafeArea(.all)
+                
+                ScrollView(.vertical) {
+                    
+                    HStack {
+                        
+                        Image(systemName: "BitcoinLogo")
+                        Text("Bitcoin")
+                        
+                    }
+                    .background(Color.gray)
+                    .frame(width: .infinity, height: 60, alignment: .center)
+                }
+            }
+        }
     }
 }
 
